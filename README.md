@@ -18,7 +18,7 @@ Based on which dataset you are using, you may need to update the filepaths, clas
 
 For k-Means source code,
 
-============================Serial Implementation=========================================
+======Serial Implementation=======
 
 
 Running the seq.c in hydra
@@ -51,7 +51,7 @@ Running the seq.c in hydra
 5. Two files will be created which consists of images membership and the final cluster centroid location 
 
 
-============================Parallel Implementation=========================================
+=====Parallel Implementation=====
 
 
 Running the para.c in hydra

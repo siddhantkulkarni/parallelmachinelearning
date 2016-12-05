@@ -13,6 +13,9 @@ Commands to use for execution of Naive Bayesian code
 - ./objectname
 
 
+Based on which dataset you are using, you may need to update the filepaths, attribute and rowcounts inside the code you are trying to execute.
+
+
 For k-Means source code,
 
 ============================Serial Implementation=========================================

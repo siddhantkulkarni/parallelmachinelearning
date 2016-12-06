@@ -316,7 +316,7 @@ int main(int argc, char **argv) {
            float **clusters;
            float   threshold;
     // default values
-    nthreads          = 0;
+    nthreads          = 4;
     numClusters       = 0;
     threshold         = 0.001;
     numClusters       = 0;
@@ -325,16 +325,14 @@ int main(int argc, char **argv) {
     filename =argv[1]; // get the filename
 	printf("Enter the number of clusters\n"); // get the number of clusters
 	scanf("%d",&numClusters);
-	printf("Enter the number of Threads\n");  //get the number of threads
-	scanf("%d",&nthreads);
-    if (filename == 0 || numClusters <= 1) printf("please enter in this format 'seq color.txt'\n ");// if the filename and the number of cluster print the message
+	if (filename == 0 || numClusters <= 1) printf("please enter in this format 'seq color.txt'\n ");// if the filename and the number of cluster print the message
     printf("The filename you have entered = %s\n", filename);
 	printf("The number of cluster you have entered = %d\n", numClusters);
-	printf("The number of cluster you have entered = %d\n", nthreads);
+	
 
 
     if (nthreads > 0)
-        omp_set_num_threads(nthreads); // allocate the thread
+		omp_set_num_threads(nthreads); // allocate the thread
 
 
 	 clock_t begin = clock(); // start the clock

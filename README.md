@@ -18,13 +18,13 @@ Based on which dataset you are using, you may need to update the filepaths, clas
 
 For k-Means source code,
 
-======Serial Implementation=======
+=========Serial Implementation=======
 
 
-Running the seq.c in hydra
+Running the seq.c in DOZER
 
 
-1. Copy the "color.txt" file in the local profile of hydra
+1. Copy the "color.txt" file in the local profile of DOZER
 
 
 2. compile the seq.c program
@@ -36,10 +36,10 @@ Running the seq.c in hydra
 3. Running the seq file
 
 
-  ./seq color.txt
-  
-  
-  Then you will be promoted with the number of cluster, enter the number of cluster.
+   ./seq color.txt
+   
+   
+   Then you will be promoted with the number of cluster, enter the number of cluster.
 
 
 ///////////OUTPUT/////////////
@@ -51,31 +51,28 @@ Running the seq.c in hydra
 5. Two files will be created which consists of images membership and the final cluster centroid location 
 
 
-=====Parallel Implementation=====
+=======Parallel Implementation==========
 
 
-Running the para.c in hydra
+Running the para.c in DOZER
 
 
-1. Copy the "color.txt" file in the local profile of hydra
+1. Copy the "color.txt" file in the local profile of DOZER
 
 
 2. compile the seq.c program
 
 
-  gcc -O -fopenmp para.c -o para
+   gcc -O -fopenmp para.c -o para
 
 
 3. Running the seq file
 
 
-  ./para color.txt
+   ./para color.txt
   
   
   Then you will be promoted with the number of cluster, enter the number of cluster.
-  
-  
-  Then you will be promoted with the number of threads, enter the number of threads.
 
 
 ///////////OUTPUT/////////////
@@ -85,4 +82,3 @@ Running the para.c in hydra
 
 
 5. Two files will be created which consists of images membership and the final cluster centroid location 
-

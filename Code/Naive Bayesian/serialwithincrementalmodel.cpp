@@ -250,7 +250,7 @@ void test_entire()
 	        }
 		calculateProbabilities();
 	}	
-	cout<<"Accuracy="<<acc/rowcount*100<<"%\n";
+
 }
 
 int main()

@@ -246,7 +246,7 @@ void test_entire()
 		if(testData[row][attrcount-1]==maxProbClass(probs))
 			acc++;
 	}	
-	cout<<"Accuracy="<<acc/rowcount*100<<"%\n";
+
 }
 
 int main()

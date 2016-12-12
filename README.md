@@ -15,6 +15,21 @@ Commands to use for execution of Naive Bayesian code
 
 Based on which dataset you are using, you may need to update the filepaths, class values, attribute counts and row counts inside the code you are trying to execute.
 
+For ad data and large Data, you can use same file as training as well as testing.
+
+
+Following are the classes used in each of the files:
+
+
+AdData(2)={"ad.","nonad."}
+
+
+LargeData(2)={"yes","no"}
+
+
+Network log data(38)={"apache2.","back.","buffer_overflow.","ftp_write.","guess_passwd.","httptunnel.","imap.","ipsweep.","land.","loadmodule.","mailbomb.","mscan.","multihop.","named.","neptune.","nmap.","normal.","perl.","phf.","pod.","portsweep.","processtable.","ps.","rootkit.","saint.","satan.","sendmail.","smurf.","snmpgetattack.","snmpguess.","sqlattack.","teardrop.","udpstorm.","warezmaster.","worm.","xlock.","xsnoop.","xterm."}
+
+
 
 For k-Means source code,
 

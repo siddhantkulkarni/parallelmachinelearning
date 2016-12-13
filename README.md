@@ -24,12 +24,29 @@ Following are the classes used in each of the files:
 AdData(2)={"ad.","nonad."}
 
 
+- Use same file as training and testing
+
+- Number of Lines: 327900
+
+- Number of Columns: 1559
+
+
 LargeData(2)={"yes","no"}
 
+- Use same file as training and testing
+
+- Number of Lines: 28000
+
+- Number of Columns: 5
 
 Network log data(38)={"apache2.","back.","buffer_overflow.","ftp_write.","guess_passwd.","httptunnel.","imap.","ipsweep.","land.","loadmodule.","mailbomb.","mscan.","multihop.","named.","neptune.","nmap.","normal.","perl.","phf.","pod.","portsweep.","processtable.","ps.","rootkit.","saint.","satan.","sendmail.","smurf.","snmpgetattack.","snmpguess.","sqlattack.","teardrop.","udpstorm.","warezmaster.","worm.","xlock.","xsnoop.","xterm."}
 
 
+- Number of Lines in training: 311029
+
+- Number of Lines in testing : 494021
+
+- Number of Columns: 42
 
 For k-Means source code,
 
